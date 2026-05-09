@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/contact.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Bootstarp contact form</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand me-auto" href="#">YSL Beauty</a>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">What do you need?</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-center end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2 active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="about.html">About</a>
+          </li>
+         <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="cart.html">Checkout</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="contact.html">Contact</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="#">inform</a>
+          </li> -->
+          
+        </ul>
+       
+      </div>
+    </div>
+    <a href="about.html" class="login-button">About Us</a>
+    <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+
+    <div class="contact-form shadow rounded mt-5">
+  <div class="row">
+    <div class="col-md-3 form-left-side p-4 text-white">
+      <h2 class="mb-4">Let’s Get in Touch</h2>
+      <p>
+        We’re here for any suggestion or just to have a chat.
+      </p>
+
+      <div class="contact-us">
+
+        <div class="address d-flex align-items-center mb-4">
+          <i class="fa-solid fa-location-dot icon"></i>
+          <p>
+            <b>Address:</b>
+            <a href="https://maps.google.com/?q=281+Rue+Saint+Honoré+Paris+France"
+               target="_blank"
+               rel="noopener noreferrer">
+               281 Rue Saint Honoré, Paris, France
+            </a>
+          </p>
+        </div>
+
+        <div class="phone d-flex align-items-center mb-4">
+          <i class="fa-solid fa-phone icon"></i>
+          <p>
+            <b>Phone:</b>
+            <a href="tel:+33149539100">
+              +33 1 49 53 91 00
+            </a>
+          </p>
+        </div>
+
+        <div class="Email d-flex align-items-center mb-4">
+          <i class="fa-solid fa-envelope icon"></i>
+          <p>
+            <b>Email:</b>
+            <a href="mailto:contact@yslbeauty.com">
+              contact@yslbeauty.com
+            </a>
+          </p>
+        </div>
+
+        <div class="website d-flex align-items-center mb-4">
+          <i class="fa-solid fa-earth-asia icon "></i>
+          <p>
+            <b>Website:</b>
+            <a href="https://www.yslbeauty.com"
+               target="_blank"
+               rel="noopener noreferrer">
+               www.yslbeauty.com
+            </a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-9 form-right-side p-4">
+       <h2 class="mb-4">Contact For Details!</h2>
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="fullName" class="form-label">
+        Full Name
+      </label>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Name"
+       >
+    </div>
+
+    <div class="col-md-6">
+
+    <label for="Email" class="form-label">
+        Email
+    </label>
+
+    <input
+        type="email"
+        class="form-control"
+        id="email"
+        placeholder="Email"
+    >
+
+    <small id="emailError"></small>
+
+</div>
+
+    <div class="col-12">
+      <label for="inputSubject" class="form-label">
+        Subject
+      </label>
+
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Subject"
+      >
+    </div>
+    <div class="col-12">
+      <label for="inputMessage" class="form-label">
+        Message
+      </label>
+
+      <textarea
+        class="form-control"
+        rows="6"
+        placeholder="Message"
+      ></textarea>
+      
+    </div>
+    
+    <div class="col-12">
+    <button class="btn btn-primary button" type="submit">
+        Send Message
+    </button>
+    <a href="index.html" class="back-home">
+    Back to Home!
+</a>
+</div>
+  </form>
+    </div>
+  </div>
+</div>
+<script src="js/contact.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

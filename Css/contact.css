@@ -1,0 +1,274 @@
+body 
+{
+      font-family: "Outfit", sans-serif;
+}
+body
+{
+    background-image: url(sec02-hero-desk.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+     min-height: 100vh;
+     display: flex;
+}
+.form-left-side
+{
+    background-color: #eae4d5;
+}
+.form-right-side{
+    background-color: #ffffffa2;
+}
+.icon {
+    width: 50px !important;
+    height: 50px !important;
+    min-width: 50px !important;
+    border: 1px solid #fefdfd;
+    border-radius: 50% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-right: 15px !important;
+    font-size: 19px !important;
+}
+.button{
+    background-color: #eae4d5 !important;
+    color: #000 !important;
+    border: none !important;
+
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.contact-form
+{
+    width: 75%;
+    overflow: hidden;
+}
+.form-right-side label
+{
+    color: #000;
+    font-weight: 500;
+}
+
+.form-left-side
+{
+    background-color: rgba(158, 158, 142, 0.762);
+}
+
+.form-left-side p
+{
+    color: #fff;
+}
+
+.form-left-side a
+{
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.form-left-side a:hover
+{
+    color: #fff !important;
+}
+.form-left-side
+{
+    transition: 0.4s;
+}
+
+.form-left-side:hover
+{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+.form-right-side
+{
+    transition: 0.4s;
+}
+
+.form-right-side:hover
+{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+.back-home
+{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+
+    color: #2c3947;
+    text-decoration: none;
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+ .back-home
+ {
+    position: relative;
+    top: 5px;
+}
+.back-home:hover
+{
+    color: #41403c;
+    transform: translateX(-5px);
+}
+#emailError
+{
+    color: red;
+    font-size: 14px;
+}
+.navbar 
+{
+    background-color: #f2f2f2;
+    height: 80px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+.navbar-brand
+{
+    font-weight: 500;
+    color: #B6B09F !important;
+    font-size: 26px !important;
+    transition: 0.3s color !important;
+    font-family: "DM Serif Display", serif;
+}
+
+.login-button
+ {
+    background-color:#B6B09F;
+    color: #f2f2f2ff;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.login-button:hover
+{
+    background-color: #B6B09F;
+}
+
+.navbar-toggler
+{
+    border: none !important;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus
+{
+    box-shadow: none !important;
+    outline: none !important;
+}
+.nav-link
+{
+    color: #666777;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover,
+.nav-link.active 
+{
+    color: #000;
+}
+
+@media (min-width: 991px) 
+{
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #B6B09F;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before,
+    .nav-link.active::before {
+        width: 100%;
+        visibility: visible;
+    }
+}
+.navbar 
+{
+    width: 75%;
+    margin: auto;
+}
+.navbar
+{
+    margin-top: 25px;
+}
+
+.contact-form
+{
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(7px);
+    border-radius: 20px;
+}
+
+.form-left-side
+{
+    background: rgba(163,163,146,0.88);
+}
+@media (max-width: 768px)
+{
+
+    body{
+        display: block;
+        padding: 20px 0;
+    }
+
+    .navbar,
+    .contact-form{
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .contact-form .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-left-side,
+    .form-right-side{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .form-left-side{
+        padding: 25px !important;
+        text-align: left;
+    }
+
+    .form-left-side .d-flex{
+        align-items: center !important;
+    }
+
+    .form-left-side p{
+        word-break: normal;
+    }
+
+    .form-right-side{
+        padding: 25px !important;
+    }
+
+    .form-right-side .col-md-6,
+    .form-right-side .col-12{
+        width: 100%;
+    }
+
+    .button,
+    .back-home{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+    }
+}

@@ -1,2 +1,2 @@
 # Online-Shop
-This is an online shop which, people can use it.
+This is an online shopp which, people can use it.
